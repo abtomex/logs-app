@@ -8,9 +8,8 @@ RUN npm install
 
 COPY . .
 
-ENV PORT 4200
-
-EXPOSE $PORT
+#ENV PORT 4200
+#EXPOSE $PORT
 
 VOLUME ["/app/data"]
 
